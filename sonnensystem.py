@@ -6,7 +6,7 @@
 # Wir berechnen nur 2D
 # Wir berücksichtigen die physikalisch korrekten Beeinflussungen der Planeten untereinander
 # Wir berechnen zunächst die Kraft, mit der Masse zusammen ergibt sich die Beschleunigung
-# Genauigkeit 1 Tag
+# Genauigkeit 1 Tag, lässt sich aber anpassen
 import pygame  # Für die Grafik      pip3.11 install pygame
 import math
 # 1. Konstanten für Grafik setzen
