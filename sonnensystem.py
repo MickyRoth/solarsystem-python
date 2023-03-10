@@ -3,7 +3,7 @@
 # Beim gezeichneten Radius verwenden wir eigene Werte
 # Wir berechnen keine Kollisionen 
 # Wir nehmen nur die inneren 4 Planeten (Merkur, Venus, Erde, Mars) und die Sonne
-# Wir berechnen nur 2D
+# Wir berechnen nur 2D.
 # Wir berücksichtigen die physikalisch korrekten Beeinflussungen der Planeten untereinander
 # Wir berechnen zunächst die Kraft, mit der Masse zusammen ergibt sich die Beschleunigung
 # Genauigkeit 1 Tag, lässt sich aber anpassen
