@@ -90,7 +90,7 @@ mercury=Planet(+0.387, 0, 0, -47400, 6, DARK_GREY, 3.3e23)
 venus = Planet(+0.723, 0, 0, -35020, 12, WHITE, 4.8685e24)
 comet1 =Planet(-2, -2, 12000, 4000, 3, GREEN, 1e6)
 comet2 =Planet(2, -2, -13000, 3000, 3, MAGENTA, 1e6)
-comet3 =Planet(2, 2, -10000, -3000, 3, BLUE, 1e26)
+comet3 =Planet(2, 2, -10000, -3000, 3, BLUE, 1e6)
 
 planets = [sun, earth, mars, mercury, venus, comet1, comet2, comet3]  # Liste der Planeten
 clock = pygame.time.Clock()  # Clock-Objekt für Framekontrolle
