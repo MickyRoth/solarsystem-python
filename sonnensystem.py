@@ -68,7 +68,6 @@ class Planet:
         self.y = self.y + self.yvel * Planet.TIMESTEP
         #print(self.x, self.y)
         self.orbit.append((self.x * self.SCALE + WIDTH/2, self.y * self.SCALE + HEIGHT/2))  # x und y-Pixel-Position in die Liste einfügen
-
     
     def draw(self, WINDOW):
         
